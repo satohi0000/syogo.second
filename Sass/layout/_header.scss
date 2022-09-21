@@ -1,0 +1,59 @@
+@use "../global" as *;
+
+.l-header {
+  width: 100%;
+  background-color: $white;
+  &__inner {
+    max-width: $inner1;
+    margin: 19px auto;
+    display: flex;
+    justify-content: space-between;
+    @include sp {
+      flex-direction: column;
+      text-align: center;
+    }
+    img {
+      width: 50%;
+      @include sp {
+        width: 75%;
+      }
+      margin: 10px 4%;
+    }
+  }
+  &__connect {
+    margin-top: 12px;
+    margin-right: 20px;
+    p {
+      font-size: 1.4rem;
+      margin-right: 5px;
+      white-space: nowrap;
+      @include sp {
+        text-align: center;
+      }
+    }
+    &-tel {
+      display: flex;
+      justify-content: flex-end;
+      margin-top: 8px;
+      @include sp {
+        justify-content: center;
+      }
+      img {
+        width: 25px;
+        height: 25px;
+        @include sp {
+          width: 35px;
+          height: 35px;
+          margin: 0 2% 0 0;
+        }
+        margin: 0 5% 0 0;
+      }
+      h4 {
+        @include sp {
+          margin: auto 0;
+          white-space: nowrap;
+        }
+      }
+    }
+  }
+}

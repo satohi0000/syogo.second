@@ -1,0 +1,47 @@
+@use "../global" as *;
+
+.p-fv {
+  height: 942px;
+  background-image: url(../画像/img/fv.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  @include pc2 {
+    background-position: 69%;
+  }
+  h1 {
+    &:nth-of-type(1) {
+      position: absolute;
+      top: 264px;
+      left: 392px;
+      padding: 25px 32px 40px 37px;
+      height: 500px;
+      @include pc2 {
+        left: 242px;
+      }
+      @include sp {
+        font-size: 1.8rem;
+        top: 686px;
+        left: 200px;
+        height: 350px;
+        padding: 15px;
+      }
+    }
+    &:nth-of-type(2) {
+      position: absolute;
+      top: 264px;
+      left: 210px;
+      padding: 25px 33px 40px 37px;
+      height: 500px;
+      @include pc2 {
+        left: 60px;
+      }
+      @include sp {
+        font-size: 2rem;
+        top: 686px;
+        height: 350px;
+        padding: 15px;
+      }
+    }
+  }
+}
