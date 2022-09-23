@@ -5,19 +5,37 @@
   background-color: $white;
   &__inner {
     max-width: $inner1;
-    margin: 19px auto;
+    margin: 0px auto;
     display: flex;
     justify-content: space-between;
     @include sp {
       flex-direction: column;
       text-align: center;
     }
-    img {
-      width: 50%;
-      @include sp {
-        width: 75%;
+
+    &-left {
+      display: flex;
+      width: 257px;
+
+      margin: 23px 0 0 19px;
+      img {
+        width: 50px;
+        height: 50px;
       }
-      margin: 10px 4%;
+      h4 {
+        margin-top: 12px;
+        margin-left: 14px;
+      }
+    }
+    &-nav {
+      margin-top: 37px;
+      ul {
+        display: flex;
+        width: 301px;
+        li {
+          margin-right: 47px;
+        }
+      }
     }
   }
   &__connect {

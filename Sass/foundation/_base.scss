@@ -34,11 +34,8 @@ body {
     font-family: $ff1;
   }
   h4 {
-    @include f_style2(1.9, 24, 0);
+    @include f_style2(2.2, 22, 100);
     font-family: $ff1;
-    @include sp {
-      font-size: 3rem;
-    }
   }
 
   h5 {
