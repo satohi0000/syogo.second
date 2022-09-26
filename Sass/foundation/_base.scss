@@ -3,6 +3,7 @@
 body {
   background-color: $background;
   color: $black;
+  font-family: $ff1;
   list-style: none;
   img {
     width: 100%;
@@ -17,44 +18,32 @@ body {
     color: $black;
   }
   h1 {
-    @include f_style2(2.8, 34, 230);
-    font-family: $ff1;
-    font-weight: bold;
-    writing-mode: vertical-rl;
-
-    background-color: $white;
+    @include f_style2(3.2, 54.4, 0);
+    font-weight: 700;
   }
   h2 {
-    @include f_style2(2.4, 29, 0);
-    font-family: $ff1;
-    font-weight: bold;
+    @include f_style2(3.2, 54, 0);
+    font-weight: 600;
   }
   h3 {
-    @include f_style2(2.4, 24, 0);
-    font-family: $ff1;
+    @include f_style2(2.8, 48, 0);
   }
   h4 {
-    @include f_style2(2.2, 22, 100);
-    font-family: $ff1;
+    @include f_style2(2.4, 48, 0);
   }
 
   h5 {
-    @include f_style2(1.6, 30, 4);
-    font-weight: bold;
-    font-family: $ff1;
-    color: white;
+    @include f_style2(1.3, 27, 0);
+    color: $blue;
   }
   p {
     @include f_style2(1.6, 32, 0);
-    font-family: $ff1;
   }
   dt {
     @include f_style2(1.3, 13, 0);
     font-weight: bold;
-    font-family: $ff1;
   }
   dd {
     @include f_style2(1.5, 15, 70);
-    font-family: $ff1;
   }
 }

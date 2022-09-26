@@ -1,0 +1,15 @@
+@use "../global" as *;
+
+.l-contents {
+  &__article {
+    margin-top: 65px;
+    h2,
+    h3,
+    h5 {
+      text-align: center;
+    }
+    h5 {
+      margin: 3px 8px 0 0;
+    }
+  }
+}

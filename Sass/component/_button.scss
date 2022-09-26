@@ -1,18 +1,17 @@
 @use "../global" as *;
 
 .c-button {
-  width: 155px;
-  height: 33px;
-  font-size: 12px;
+  @include f_style2(1.4, 24, 0);
+  width: 153px;
+  height: 37px;
+
   color: #fff;
   background: linear-gradient(90deg, #fa41cc, #6020b0);
-  padding: 4px 0px;
+  padding: 7px 0px;
   text-align: center;
-  margin-top: 31px;
-  margin-right: 23px;
-  line-height: 1;
+
   white-space: nowrap;
   border-radius: 10px;
-  letter-spacing: 1px;
+
   border: none;
 }
