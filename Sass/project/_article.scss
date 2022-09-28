@@ -58,4 +58,30 @@
       }
     }
   }
+  &__cell {
+    background-color: white;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 70px;
+    dl {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      dt {
+        width: 30%;
+        padding: 0px 0px 0px 45px;
+        border-right: 1px solid #e5e5e5;
+        border-bottom: 1px solid #e5e5e5;
+      }
+      dd {
+        width: 50%;
+        padding: 0px 0px 0px 40px;
+        border-bottom: 1px solid #e5e5e5;
+      }
+    }
+    p {
+      font-weight: bold;
+      text-align: center;
+    }
+  }
 }

@@ -39,11 +39,9 @@ body {
   p {
     @include f_style2(1.6, 32, 0);
   }
-  dt {
-    @include f_style2(1.3, 13, 0);
-    font-weight: bold;
-  }
+  dt,
   dd {
-    @include f_style2(1.5, 15, 70);
+    @include f_style2(1.6, 97.6, 0);
+    font-weight: bold;
   }
 }

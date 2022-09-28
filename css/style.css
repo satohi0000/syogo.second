@@ -51,16 +51,12 @@ body p {
   line-height: 2;
   letter-spacing: 0em;
 }
-body dt {
-  font-size: 1.3rem;
-  line-height: 1;
+body dt,
+body dd {
+  font-size: 1.6rem;
+  line-height: 6.1;
   letter-spacing: 0em;
   font-weight: bold;
-}
-body dd {
-  font-size: 1.5rem;
-  line-height: 1;
-  letter-spacing: 0.07em;
 }
 
 html {
@@ -410,6 +406,32 @@ select {
 .p-article__section3 h4 {
   margin-left: 3px;
 }
+.p-article__cell {
+  background-color: white;
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 70px;
+}
+.p-article__cell dl {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.p-article__cell dl dt {
+  width: 30%;
+  padding: 0px 0px 0px 45px;
+  border-right: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
+}
+.p-article__cell dl dd {
+  width: 50%;
+  padding: 0px 0px 0px 40px;
+  border-bottom: 1px solid #e5e5e5;
+}
+.p-article__cell p {
+  font-weight: bold;
+  text-align: center;
+}
 
 .p-fv {
   border-top: 1px solid #707070;
@@ -482,4 +504,16 @@ select {
 
 .u-mg {
   margin-top: 114px;
+}
+
+.u-bg {
+  background-color: #eefbfb;
+  padding: 58px 0 70px 0;
+  margin-top: 112px;
+}
+.u-bg p {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 36px;
+  font-size: 1.3rem;
 }/*# sourceMappingURL=style.css.map */

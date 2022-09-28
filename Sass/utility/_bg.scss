@@ -1,0 +1,14 @@
+@use "../global" as *;
+
+.u-bg {
+  background-color: #eefbfb;
+  padding: 58px 0 70px 0;
+  margin-top: 112px;
+
+  p {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 36px;
+    font-size: 1.3rem;
+  }
+}
