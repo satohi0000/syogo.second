@@ -1,0 +1,37 @@
+@use "../global" as *;
+
+.c-form {
+  margin-top: 55px;
+  margin: 0 auto;
+  max-width: 1200px;
+  margin-bottom: 130px;
+  &__input {
+    margin-top: 57px;
+    margin-bottom: 50px;
+    dt {
+      :nth-child(2) {
+        margin: 20px;
+      }
+    }
+  }
+
+  &__text {
+    &-1 {
+      background-color: $white;
+      border: none;
+      width: 82.9%;
+      height: 48px;
+    }
+    &-2 {
+      background-color: $white;
+      border: none;
+      width: 82.9%;
+      height: 180px;
+    }
+  }
+  &__title {
+    &-2 {
+      margin-top: 28px;
+    }
+  }
+}
