@@ -2,14 +2,19 @@
 
 .u-bg {
   background-color: #eefbfb;
-  padding: 58px 0 53px 0;
-  margin-top: 117px;
-  margin-bottom: 0px;
+  padding: 54px 0 66px 0;
+  margin-top: 109px;
 
   > p {
     text-align: center;
     font-weight: bold;
-    margin-top: 36px;
+    margin-top: 42px;
     font-size: 1.25rem;
+  }
+  &2 {
+    margin-top: 63px;
+    background-color: #eefbfb;
+    padding-top: 50px;
+    padding-bottom: 100px;
   }
 }

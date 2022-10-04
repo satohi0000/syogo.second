@@ -1,7 +1,7 @@
 @use "../global" as *;
 
 .p-article {
-  margin: 46px 0 0 0;
+  margin: 47px 0 0 0;
   padding-bottom: 32px;
   &__2colum {
     display: flex;
@@ -68,13 +68,13 @@
       flex-wrap: wrap;
       width: 100%;
       dt {
-        width: 37%;
+        width: 27%;
         padding: 0px 0px 0px 5%;
         border-right: 1px solid #e5e5e5;
         border-bottom: 1px solid #e5e5e5;
       }
       dd {
-        width: 50%;
+        width: 62%;
         padding: 0px 0px 0px 40px;
         border-bottom: 1px solid #e5e5e5;
       }
@@ -90,15 +90,16 @@
     margin: 0 auto;
     margin-top: 0px;
     dl {
-      width: 90%;
+      width: 97%;
       margin: 0 auto;
     }
     dt,
     dd {
-      @include f_style2(1.4, 26, 0);
+      @include f_style2(1.4, 26, 70);
       text-align: center;
-      padding: 20px 57px;
+      padding: 18px 35px 18px 35px;
       margin: 0 auto;
+      margin-left: 18px;
       border-bottom: 1px solid #e5e5e5;
       border-left: 1px solid #e5e5e5;
       border-right: 1px solid #e5e5e5;
@@ -110,6 +111,7 @@
       }
     }
     dd {
+      background-color: #f2f2f2;
       &:nth-of-type(3) {
         text-align: start;
       }

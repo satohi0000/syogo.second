@@ -249,23 +249,39 @@ select {
 .l-contents__article2 h5 {
   text-align: center;
 }
-.l-contents__article2 h5 {
-  margin: 3px 8px 0 0;
-}
 .l-contents__article h2,
 .l-contents__article h3,
 .l-contents__article h5 {
   text-align: center;
 }
 .l-contents__article h5 {
-  margin: 3px 8px 0 0;
+  margin: 2px 0 0 0;
 }
 .l-contents__article ul {
   display: flex;
   justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 43px;
 }
 .l-contents__article li {
-  width: 30%;
+  width: 32%;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border: 1px solid #707070;
+  filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.6));
+}
+.l-contents__article li p {
+  padding: 12px 30px 0 20px;
+  line-height: 1.5;
+  font-size: 1.8rem;
+}
+.l-contents__article li time {
+  margin-top: auto;
+  text-align: end;
+  margin-right: 35px;
+  padding-bottom: 10px;
 }
 
 .l-footer {
@@ -368,7 +384,7 @@ select {
 }
 
 .p-article {
-  margin: 46px 0 0 0;
+  margin: 47px 0 0 0;
   padding-bottom: 32px;
 }
 .p-article__2colum {
@@ -436,13 +452,13 @@ select {
   width: 100%;
 }
 .p-article__cell dl dt {
-  width: 37%;
+  width: 27%;
   padding: 0px 0px 0px 5%;
   border-right: 1px solid #e5e5e5;
   border-bottom: 1px solid #e5e5e5;
 }
 .p-article__cell dl dd {
-  width: 50%;
+  width: 62%;
   padding: 0px 0px 0px 40px;
   border-bottom: 1px solid #e5e5e5;
 }
@@ -457,17 +473,18 @@ select {
   margin-top: 0px;
 }
 .p-article__table dl {
-  width: 90%;
+  width: 97%;
   margin: 0 auto;
 }
 .p-article__table dt,
 .p-article__table dd {
   font-size: 1.4rem;
   line-height: 1.8571428571;
-  letter-spacing: 0em;
+  letter-spacing: 0.07em;
   text-align: center;
-  padding: 20px 57px;
+  padding: 18px 35px 18px 35px;
   margin: 0 auto;
+  margin-left: 18px;
   border-bottom: 1px solid #e5e5e5;
   border-left: 1px solid #e5e5e5;
   border-right: 1px solid #e5e5e5;
@@ -477,6 +494,9 @@ select {
 }
 .p-article__table dt:nth-of-type(1) {
   border-top: 1px solid #e5e5e5;
+}
+.p-article__table dd {
+  background-color: #f2f2f2;
 }
 .p-article__table dd:nth-of-type(3) {
   text-align: start;
@@ -590,13 +610,18 @@ select {
 
 .u-bg {
   background-color: #eefbfb;
-  padding: 58px 0 53px 0;
-  margin-top: 117px;
-  margin-bottom: 0px;
+  padding: 54px 0 66px 0;
+  margin-top: 109px;
 }
 .u-bg > p {
   text-align: center;
   font-weight: bold;
-  margin-top: 36px;
+  margin-top: 42px;
   font-size: 1.25rem;
+}
+.u-bg2 {
+  margin-top: 63px;
+  background-color: #eefbfb;
+  padding-top: 50px;
+  padding-bottom: 100px;
 }/*# sourceMappingURL=style.css.map */
