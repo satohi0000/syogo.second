@@ -36,6 +36,10 @@ body {
     @include f_style2(1.4, 27, 0);
     color: $blue;
   }
+  h6 {
+    @include f_style2(1.6, 27, 0);
+    color: $black;
+  }
   p {
     @include f_style2(1.6, 32, 0);
   }

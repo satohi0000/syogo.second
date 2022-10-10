@@ -1,7 +1,7 @@
 @use "../global" as *;
 
 .p-article {
-  margin: 47px 0 0 0;
+  margin: 46px 0 0 0;
   padding-bottom: 32px;
   &__2colum {
     display: flex;
@@ -40,7 +40,7 @@
       p {
         margin-top: 29px;
         width: 450px;
-        line-height: 1.8;
+        line-height: 1.7;
       }
     }
 
@@ -89,6 +89,7 @@
     width: 70%;
     margin: 0 auto;
     margin-top: 0px;
+
     dl {
       width: 97%;
       margin: 0 auto;
@@ -106,12 +107,18 @@
     }
     dt {
       cursor: pointer;
+
       &:nth-of-type(1) {
         border-top: 1px solid #e5e5e5;
       }
     }
     dd {
+      display: none;
+
       background-color: #f2f2f2;
+      &:nth-of-type(1) {
+        display: block;
+      }
       &:nth-of-type(3) {
         text-align: start;
       }

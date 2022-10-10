@@ -5,7 +5,7 @@
     <link rel="icon" href="画像/img/favicon.ico" id="favicon" />
     <link
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+      href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css"
     />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -30,7 +30,7 @@
           <ul>
             <li>特徴</li>
             <li>価格</li>
-            <li>お問い合わせ</li>
+            <li><a href="#contact">お問い合わせ</a></li>
           </ul>
         </div>
         <div class="l-header__inner-right">
@@ -98,13 +98,13 @@
                   「保守しやすい」 「拡張しやすい」と言った設計をもとに <br />
                   きちんとコーディングを行うため、納品後も安心です。
                 </p>
-
-                <img
-                  class="p-article__2colum-img2"
-                  src="/画像/img/building_website.png"
-                  alt="building_website"
-                />
               </div>
+
+              <img
+                class="p-article__2colum-img2"
+                src="/画像/img/building_website.png"
+                alt="building_website"
+              />
             </div>
           </article>
           <article class="p-article u-mg">
@@ -153,19 +153,23 @@
           <div class="p-article u-mg2">
             <div class="p-article__table">
               <dl>
-                <dt>デザインから一貫してお願いすることは可能でしょうか</dt>
-                <dd>
+                <dt class="p-article__table-dt1">
+                  デザインから一貫してお願いすることは可能でしょうか
+                </dt>
+                <dd class="p-article__table-dt1__answer">
                   ユアコーディングはコーディングに特化したサービスですので、デザインからお受けすることは基本的にありません。
                   ただデザインを行う際は提携しているデザイナーと連携して対応させていただきますので、別途ご連絡ください。
                 </dd>
-                <dt>
+                <dt class="p-article__table-dt2">
                   WordPressのカスタマイズをお願いすることも可能でしょうか？
                 </dt>
-                <dd>
+                <dd class="p-article__table-dt2__answer">
                   可能です。ただECサイトなどの場合は構築難易度や工数の関係で綿密にヒアリングさせていただきたく思います。
                 </dd>
-                <dt>コーディングのスピード感が知りたい</dt>
-                <dd>
+                <dt class="p-article__table-dt3">
+                  コーディングのスピード感が知りたい
+                </dt>
+                <dd class="p-article__table-dt3__answer">
                   HTMLレスポンシブ込み5ページで1週間、10ページで2週間、WordPressサイト5ページで2週間、10ページで3週間が目安に
                   なります。
                 </dd>
@@ -197,52 +201,129 @@
             </li>
           </ul>
         </article>
-        <article class="l-contents__article u-bg">
-          <h>制作実績</h>
-          <h>WORKS</h>
+        <article class="l-contents__article3">
+          <h2>制作実績</h2>
+          <h5>WORKS</h5>
+          <div class="splide">
+            <div class="splide__track">
+              <ul class="splide__list">
+                <li class="splide__slide">
+                  <img
+                    src="画像/img/arnel-hasanovic-MNd-Rka1o0Q-unsplash.png"
+                    alt="digital-marketing-1"
+                  />
+                  <h6>
+                    コーディングカンファレンスのイベント LPの制作を行いました！
+                  </h6>
+                  <p>
+                    採用技術：jQuery,WordPress<br />
+                    実装期間：4週間<br />
+                    担当コーダー：石井
+                  </p>
+                </li>
+                <li class="splide__slide">
+                  <img
+                    src="画像/img/digital-marketing-1.png"
+                    alt="digital-marketing-1"
+                  />
+                  <h6>
+                    株式会社サンプル様採用サイトのコーディ ングを行いました！
+                  </h6>
+                  <p>
+                    採用技術：jQuery,Bootstrap4<br />
+                    実装期間：2週間<br />
+                    担当コーダー：石井
+                  </p>
+                </li>
+                <li class="splide__slide u-flex_df">
+                  <img
+                    src="画像/img/hal-gatewood-tZc3vjPCk-Q-unsplash.png"
+                    alt="digital-marketing-1"
+                  />
+                  <h6>
+                    株式会社サンプル様通販サイトのコーデ ィングを行いました！
+                  </h6>
+                  <p>
+                    採用技術：jQuery,Bootstrap4<br />実装期間：6週間<br />
+                    担当コーダー：石井
+                  </p>
+                </li>
+                <li class="splide__slide">
+                  <img
+                    src="画像/img/digital-marketing-1.png"
+                    alt="digital-marketing-1"
+                  />
+                  <h6>
+                    株式会社サンプル様採用サイトのコーディ ングを行いました！
+                  </h6>
+                  <p>
+                    採用技術：jQuery,Bootstrap4<br />
+                    実装期間：2週間<br />
+                    担当コーダー：石井
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
         </article>
-
-        <article class="l-contents__article2 u-bg2">
+        <article class="l-contents__article4 u-bg3">
           <h2>お問い合わせ</h2>
           <h5>CONTACT</h5>
-          <p>コーディングの人出が足りないとき、 あなたの力になります</p>
-          <form action="#" method="post" class="c-form">
-            <div class="c-form__input">
-              <dl>
+          <p>コーディングの人出が足りないとき、<br />あなたの力になります</p>
+          <form
+            action="https://docs.google.com/forms/u/0/d/e/hoge-/formResponse"
+            id="form"
+            class="c-form"
+          >
+              <dl id="contact">
                 <dt>
-                  <label for="name" class="c-form__title">Name</label>
+                  <label for="name" class="c-form__title"
+                    >お名前
+                    <div class="c-mark">必須</div>
+                  </label>
                 </dt>
                 <dd>
-                  <input
-                    type="text"
-                    id="name"
-                    name="your-name"
-                    class="c-form__text-1"
-                  />
+                  <input type="text" name="entry.396xxxxx" id="name" class="c-form__text-1" placeholder="お名前" required>
                 </dd>
-                <dt class="c-form__title-2">
-                  <label for="E-mail">E-mail</label>
+                <dt>
+                  <label for="mail" class="c-form__title"
+                    >メールアドレス
+                    <div class="c-mark">必須</div></label
+                  >
                 </dt>
                 <dd>
-                  <input
-                    type="e-mail"
-                    id="email"
-                    name="your-email"
-                    class="c-form__text-1"
-                  />
+                  <input type="mail" name="entry.1934xxxxx" id="mail" class="c-form__text-1" placeholder="メールアドレス" required>
                 </dd>
-                <dt class="c-form__title-2">
-                  <label for="message">Message</label>
+                <dt>
+                  <label for="message" class="c-form__title"
+                    >お問い合わせ内容
+                    <div class="c-mark">必須</div></label
+                  >
                 </dt>
                 <dd>
                   <textarea
                     id="message"
                     name="your-message"
                     class="c-form__text-2"
+                    required
                   ></textarea>
                 </dd>
+                <div class="c-form__check">
+                  <input
+                    type="checkbox"
+                    id="privacycheck"
+                    class="c-form__box"
+                    required
+                  />
+                  <label for="check">プライバシーポリシーに同意する</label>
+                </div>
                 <div class="c-button__form">
-                  <input type="submit" value="送信" />
+                  <input
+                    class="c-button"
+                    id="js-submit"
+                    type="submit"
+                    value="送信する"
+                  />
                 </div>
               </dl>
             </div>
@@ -251,13 +332,15 @@
       </div>
     </main>
     <footer class="l-footer">
-      <h>ユアコーディング</h>
-      <div class="l-footer__sentece">
+      <h2>ユアコーディング</h2>
+      <div class="l-footer__sentence">
         <p>プライバシーポリシー</p>
         <p>個人商取引法に基づく表記</p>
       </div>
       <p>©ユアコーディング, All Rights Reserved.</p>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/style.js"></script>
   </body>
 </html>
