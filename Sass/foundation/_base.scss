@@ -33,12 +33,15 @@ body {
   }
 
   h5 {
-    @include f_style2(1.4, 27, 0);
+    @include f_style2(1.7, 27, 0);
     color: $blue;
   }
   h6 {
     @include f_style2(1.6, 27, 0);
     color: $black;
+  }
+  label {
+    @include f_style2(1.6, 26, 0);
   }
   p {
     @include f_style2(1.6, 32, 0);

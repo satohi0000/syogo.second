@@ -266,68 +266,71 @@
             </div>
           </div>
         </article>
-        <article class="l-contents__article4 u-bg3">
+        <article id="contact" class="l-contents__article4 u-bg3">
           <h2>お問い合わせ</h2>
           <h5>CONTACT</h5>
           <p>コーディングの人出が足りないとき、<br />あなたの力になります</p>
-          <form
-            action="https://docs.google.com/forms/u/0/d/e/hoge-/formResponse"
-            id="form"
-            class="c-form"
-          >
-              <dl id="contact">
-                <dt>
-                  <label for="name" class="c-form__title"
-                    >お名前
-                    <div class="c-mark">必須</div>
-                  </label>
-                </dt>
-                <dd>
-                  <input type="text" name="entry.396xxxxx" id="name" class="c-form__text-1" placeholder="お名前" required>
-                </dd>
-                <dt>
-                  <label for="mail" class="c-form__title"
-                    >メールアドレス
-                    <div class="c-mark">必須</div></label
-                  >
-                </dt>
-                <dd>
-                  <input type="mail" name="entry.1934xxxxx" id="mail" class="c-form__text-1" placeholder="メールアドレス" required>
-                </dd>
-                <dt>
-                  <label for="message" class="c-form__title"
-                    >お問い合わせ内容
-                    <div class="c-mark">必須</div></label
-                  >
-                </dt>
-                <dd>
-                  <textarea
-                    id="message"
-                    name="your-message"
-                    class="c-form__text-2"
-                    required
-                  ></textarea>
-                </dd>
-                <div class="c-form__check">
-                  <input
-                    type="checkbox"
-                    id="privacycheck"
-                    class="c-form__box"
-                    required
-                  />
-                  <label for="check">プライバシーポリシーに同意する</label>
+          <div class="c-form-wrapper">
+            <form
+              action="https://docs.google.com/forms/u/0/d/e/hoge-/formResponse"
+              id="form"
+            >
+              <div class="c-form__box">
+                <div class="c-form__box-title">
+                  <label for="name">お名前 </label>
+                  <div class="c-mark">必須</div>
                 </div>
-                <div class="c-button__form">
-                  <input
-                    class="c-button"
-                    id="js-submit"
-                    type="submit"
-                    value="送信する"
-                  />
+                <input
+                  type="text"
+                  name="entry.396xxxxx"
+                  id="name"
+                  class="c-form__box-input1"
+                  placeholder="お名前"
+                  required
+                />
+              </div>
+              <div class="c-form__box2">
+                <div class="c-form__box-title">
+                  <label for="mail">メールアドレス</label>
+                  <div class="c-mark">必須</div>
                 </div>
-              </dl>
-            </div>
-          </form>
+                <input
+                  type="mail"
+                  name="entry.1934xxxxx"
+                  id="mail"
+                  class="c-form__box-input1"
+                  placeholder="メールアドレス"
+                  required
+                />
+              </div>
+
+              <div class="c-form__box3">
+                <div class="c-form__box-title">
+                  <label for="text">お問い合わせ内容</label>
+                  <div class="c-mark">必須</div>
+                </div>
+                <textarea
+                  name="entry.181xxxxx"
+                  id=""
+                  class="c-form__box-input2"
+                  cols="30"
+                  rows="10"
+                  placeholder="自由記述"
+                ></textarea
+                ><!-- /# -->
+              </div>
+              <div class="c-form__box4">
+                <input
+                  type="checkbox"
+                  class="c-form__box4-check"
+                  id="privacyCheck"
+                  required
+                />
+                <label for="privacyCheck">プライバシーポリシーに同意する</label>
+              </div>
+              <input type="submit" id="js-submit" disabled />
+            </form>
+          </div>
         </article>
       </div>
     </main>
