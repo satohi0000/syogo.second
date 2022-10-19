@@ -1,7 +1,7 @@
 @use "../global" as *;
 
 .l-header {
-  width: 100%;
+  width: 101%;
   height: 96px;
   background-color: $white;
   &__inner {
@@ -28,7 +28,7 @@
       }
     }
     &-nav {
-      margin-top: 42px;
+      margin-top: 38px;
       ul {
         display: flex;
         width: 301px;

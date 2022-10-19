@@ -2,6 +2,9 @@
 
 .u-flex_r {
   flex-direction: row-reverse;
+  @include tab {
+    flex-direction: column-reverse;
+  }
 }
 
 .u-flex_df {

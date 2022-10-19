@@ -5,6 +5,10 @@
   &__article2,
   &__article3,
   &__article4 {
+    @include tab {
+      margin: 0 auto;
+      text-align: center;
+    }
     margin-top: 47px;
     h2 {
       margin-top: 5px;
@@ -61,7 +65,7 @@
       }
     }
     &2 {
-      margin-top: 45px;
+      margin-top: 51px;
     }
     &3 {
       margin-top: 47px;
@@ -135,7 +139,7 @@
         }
       }
     }
-    margin-top: 69px;
+    margin-top: 65px;
 
     p {
       line-height: 1.5;

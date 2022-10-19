@@ -1,11 +1,11 @@
-$pc2: 1025px;
+$pc2: 1275px;
 @mixin pc2 {
   @media (max-width: ($pc2)) {
     @content;
   }
 }
 
-$tab: 768px;
+$tab: 868px;
 @mixin tab {
   @media (max-width: ($tab)) {
     @content;
