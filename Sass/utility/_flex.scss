@@ -3,7 +3,7 @@
 .u-flex_r {
   flex-direction: row-reverse;
   @include tab {
-    flex-direction: column-reverse;
+    flex-direction: column;
   }
 }
 
