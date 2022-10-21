@@ -20,6 +20,7 @@
     }
     ul {
       display: flex;
+
       justify-content: space-between;
       width: 90%;
       margin: 0 auto;
@@ -27,6 +28,7 @@
     }
     li {
       width: 32%;
+
       display: flex;
       flex-direction: column;
       background-color: $white;
@@ -44,12 +46,19 @@
     ul {
       display: flex;
       justify-content: space-between;
+      @include sp {
+        flex-direction: column;
+      }
       width: 90%;
       margin: 0 auto;
       margin-top: 43px;
     }
     li {
       width: 32%;
+      @include sp {
+        width: 100%;
+        margin-top: 25px;
+      }
       display: flex;
       flex-direction: column;
       background-color: $white;

@@ -9,6 +9,16 @@ new Splide(".splide", {
   type: "loop",
   width: "100%",
   height: "400px",
+  breakpoints: {
+    868: {
+      fixedWidth: "62%",
+      padding: "19%",
+    },
+    599: {
+      fixedWidth: "95%",
+      padding: "20%",
+    },
+  },
 }).mount();
 
 $(function () {

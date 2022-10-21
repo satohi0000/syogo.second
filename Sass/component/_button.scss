@@ -19,3 +19,54 @@
     margin-top: 27px;
   }
 }
+
+.c-ham-btn {
+  display: none;
+  @include tab {
+    display: flex;
+  }
+  position: relative;
+  width: 40px;
+  height: 50px;
+  z-index: 98;
+  cursor: pointer;
+  margin-top: 35px;
+  margin-right: 5%;
+  span {
+    position: absolute;
+    left: 7px;
+    width: 36px;
+    height: 3px;
+    transition: all 0.4s;
+    background-color: $black;
+    &:nth-of-type(2) {
+      top: 8px;
+    }
+    &:nth-of-type(3) {
+      top: 17px;
+    }
+  }
+}
+
+#c-BTN1 {
+  &.active {
+    transform: rotate(360deg);
+    transition: all 0.9s;
+    margin-top: 0px;
+    span {
+      &:nth-of-type(1) {
+        top: 3px;
+        transform: translateY(15px) rotate(-45deg);
+        background-color: $white;
+      }
+      &:nth-of-type(2) {
+        display: none;
+      }
+      &:nth-of-type(3) {
+        top: 33px;
+        transform: translateY(-15px) rotate(45deg);
+        background-color: $white;
+      }
+    }
+  }
+}
