@@ -21,6 +21,14 @@ new Splide(".splide", {
   },
 }).mount();
 
+$("#c-BTN1").on("click", function () {
+  $(this).toggleClass("active");
+  $(".p-nav-list").toggleClass("open");
+  $(".p-mask").toggleClass("open1");
+  $("body").toggleClass("no_scroll");
+  return false;
+});
+
 $(function () {
   // #で始まるa要素をクリックした場合に処理（"#"←ダブルクォーテンションで囲むのを忘れずに。忘れるとjQueryのバージョンによっては動かない。。）
   $('a[href^="#"]').click(function () {

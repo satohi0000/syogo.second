@@ -53,6 +53,7 @@
     transform: rotate(360deg);
     transition: all 0.9s;
     margin-top: 0px;
+    z-index: 100;
     span {
       &:nth-of-type(1) {
         top: 3px;
