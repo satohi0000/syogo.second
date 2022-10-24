@@ -31,11 +31,8 @@
     }
     &-nav {
       margin-top: 38px;
-      @include tab {
-        display: none;
-      }
+
       ul {
-        display: flex;
         width: 301px;
         li {
           margin-right: 47px;

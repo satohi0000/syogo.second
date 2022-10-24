@@ -4,8 +4,15 @@
   &-list {
     display: flex;
     @include tab {
+      display: none;
+    }
+  }
+  &-list2 {
+    display: none;
+    @include tab {
+      display: flex;
       position: fixed;
-      top: 0;
+      top: 100px;
       left: -300px;
       width: 300px;
       color: #fff;
@@ -14,8 +21,14 @@
       z-index: 20;
       opacity: 0;
     }
-    &-item {
+  }
+  &-item {
+    @include tab {
       margin-right: 55px;
+      margin-top: 50px;
+      > a {
+        color: #fff;
+      }
     }
   }
 }

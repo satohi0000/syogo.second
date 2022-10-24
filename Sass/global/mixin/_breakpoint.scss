@@ -5,7 +5,14 @@ $pc2: 1275px;
   }
 }
 
-$tab: 868px;
+$pc3: 1126px;
+@mixin pc3 {
+  @media (max-width: ($pc3)) {
+    @content;
+  }
+}
+
+$tab: 881px;
 @mixin tab {
   @media (max-width: ($tab)) {
     @content;

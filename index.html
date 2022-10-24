@@ -2,11 +2,12 @@
 <html lang="ja" dir="ltl">
   <head>
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="icon" href="画像/img/favicon.ico" id="favicon" />
+    <link rel="icon" href="画像/img/Logo.png" id="favicon" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="format-detection" content="telephone=no" />
@@ -28,14 +29,20 @@
         </div>
         <div class="l-header__inner-nav">
           <ul class="p-nav-list">
-            <li class="p-nav-item">特徴</li>
-            <li class="p-nav-item">価格</li>
+            <li class="p-nav-item"><a href="#style">特徴</a></li>
+            <li class="p-nav-item"><a href="#value">価格</a></li>
+            <li class="p-nav-item"><a href="#contact">お問い合わせ</a></li>
+          </ul>
+          <ul class="p-nav-list2">
+            <li class="p-nav-item"><a href="#style">特徴</a></li>
+            <li class="p-nav-item"><a href="#value">価格</a></li>
             <li class="p-nav-item"><a href="#contact">お問い合わせ</a></li>
           </ul>
         </div>
+
         <div class="p-mask"></div>
         <div class="l-header__inner-right">
-          <button class="c-button">お問い合わせ</button>
+          <a href="#contact"><button class="c-button">お問い合わせ</button></a>
         </div>
         <div id="c-BTN1" class="c-ham-btn">
           <span></span>
@@ -54,7 +61,9 @@
               デザインに注力されたい方の<br />
               助けになります
             </p>
-            <button class="c-button">お問い合わせ</button>
+            <a href="#contact"
+              ><button class="c-button">お問い合わせ</button></a
+            >
           </div>
           <div class="p-fv-right">
             <img
@@ -69,9 +78,13 @@
           </div>
         </div>
         <article class="l-contents__article f-wrapper">
-          <h2>ユアコーディング3つの特徴</h2>
+          <h2 id="style">ユアコーディング3つの特徴</h2>
           <h5>FEATURES</h5>
-          <article class="p-article">
+          <article
+            class="p-article"
+            data-aos="fade-zoom-in"
+            data-aos-easing="ease-in-back"
+          >
             <h3>高速コーディング</h3>
             <div class="p-article__2colum u-flex_r">
               <div class="p-article__section">
@@ -93,7 +106,11 @@
               />
             </div>
           </article>
-          <article class="p-article">
+          <article
+            class="p-article"
+            data-aos="fade-zoom-in"
+            data-aos-easing="ease-in-back"
+          >
             <h3>高品質</h3>
             <div class="p-article__2colum">
               <div class="p-article__section2">
@@ -116,7 +133,11 @@
               />
             </div>
           </article>
-          <article class="p-article u-mg">
+          <article
+            class="p-article u-mg"
+            data-aos="fade-zoom-in"
+            data-aos-easing="ease-in-back"
+          >
             <h3>迅速なレスポンス</h3>
             <div class="p-article__2colum u-flex_r">
               <div class="p-article__section3">
@@ -139,8 +160,12 @@
             </div>
           </article>
         </article>
-        <article class="l-contents__article u-bg">
-          <h2>価格</h2>
+        <article
+          class="l-contents__article u-bg"
+          data-aos="fade-zoom-in"
+          data-aos-easing="ease-in-back"
+        >
+          <h2 id="value">価格</h2>
           <h5>PRICE</h5>
           <div class="p-article__cell">
             <dl>
@@ -156,7 +181,11 @@
           </div>
           <p>＊詳細な価格はページや仕様によって異なります</p>
         </article>
-        <article class="l-contents__article2">
+        <article
+          class="l-contents__article2"
+          data-aos="fade-zoom-in"
+          data-aos-easing="ease-in-back"
+        >
           <h2>よくある質問</h2>
           <h5>FAQ</h5>
           <div class="p-article u-mg2">
@@ -186,7 +215,11 @@
             </div>
           </div>
         </article>
-        <article class="l-contents__article u-bg2">
+        <article
+          class="l-contents__article u-bg2"
+          data-aos="fade-zoom-in"
+          data-aos-easing="ease-in-back"
+        >
           <h2>ブログ</h2>
           <h5>BLOG</h5>
           <ul>
@@ -210,7 +243,11 @@
             </li>
           </ul>
         </article>
-        <article class="l-contents__article3">
+        <article
+          class="l-contents__article3"
+          data-aos="fade-zoom-in"
+          data-aos-easing="ease-in-back"
+        >
           <h2>制作実績</h2>
           <h5>WORKS</h5>
           <div class="splide">
@@ -281,7 +318,7 @@
           <p>コーディングの人出が足りないとき、<br />あなたの力になります</p>
           <div class="c-form-wrapper">
             <form
-              action="https://docs.google.com/forms/u/0/d/e/hoge-/formResponse"
+              action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSc3fZ22K_5d25Tgthov3IFpBxaz2LyhrgQP17ph7E_zcafGCQ/formResponse"
               id="form"
             >
               <div class="c-form__box">
@@ -291,12 +328,13 @@
                 </div>
                 <input
                   type="text"
-                  name="entry.396xxxxx"
+                  name="entry.752881277"
                   id="name"
                   class="c-form__box-input1"
                   placeholder="お名前"
-                  required
+                  required="required"
                 />
+                <p class="c-form__error-message1">*入力エラー</p>
               </div>
               <div class="c-form__box2">
                 <div class="c-form__box-title">
@@ -305,12 +343,13 @@
                 </div>
                 <input
                   type="mail"
-                  name="entry.1934xxxxx"
+                  name="entry.1530546066"
                   id="mail"
                   class="c-form__box-input1"
                   placeholder="メールアドレス"
-                  required
+                  required="required"
                 />
+                <p class="c-form__error-message2">*入力エラー</p>
               </div>
 
               <div class="c-form__box3">
@@ -319,21 +358,23 @@
                   <div class="c-mark">必須</div>
                 </div>
                 <textarea
-                  name="entry.181xxxxx"
+                  type="text"
+                  name="entry.604740606"
                   id=""
                   class="c-form__box-input2"
                   cols="30"
                   rows="10"
                   placeholder="自由記述"
-                ></textarea
-                ><!-- /# -->
+                  required="required"
+                ></textarea>
+                <p class="c-form__error-message3">入力エラー</p>
               </div>
               <div class="c-form__box4">
                 <input
                   type="checkbox"
                   class="c-form__box4-check"
                   id="privacyCheck"
-                  required
+                  required="required"
                 />
                 <label for="privacyCheck">プライバシーポリシーに同意する</label>
               </div>
@@ -345,6 +386,10 @@
                 disabled
               />
             </form>
+            <p class="c-form__end-message">
+              お問い合わせありがとうございました。２営業日以内に返信をさせていただきます。お待ちください。
+            </p>
+            <p class="c-form__false-message">送信失敗です</p>
           </div>
         </article>
       </div>
@@ -358,6 +403,7 @@
       <p>©ユアコーディング, All Rights Reserved.</p>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="js/jquery-3.6.0.js"></script>
     <script src="js/style.js"></script>
   </body>

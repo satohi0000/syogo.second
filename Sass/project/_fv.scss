@@ -35,9 +35,9 @@
       }
     }
     &1 {
-      width: 113%;
+      width: 106%;
       z-index: -1;
-      transform: translate(-2%, -16%);
+      transform: translate(-7%, -17%);
 
       @include tab {
         transform: translate(77%, -29%);
@@ -49,9 +49,9 @@
       }
     }
     &2 {
-      width: 85%;
+      width: 81%;
       z-index: -1;
-      transform: translate(-15%, 29%);
+      transform: translate(-24%, 27%);
       @include tab {
         transform: translate(66%, 35%);
       }

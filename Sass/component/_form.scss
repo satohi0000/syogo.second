@@ -1,6 +1,16 @@
 @use "../global" as *;
 
 .c-form {
+  &__error-message1,
+  &__error-message2,
+  &__error-message3,
+  &__end-message,
+  &__false-message {
+    display: none;
+    color: red !important;
+    text-align: start !important;
+    padding-bottom: 20px;
+  }
   &-wrapper {
     margin: 0 auto;
     margin-top: 34px;
