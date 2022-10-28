@@ -18,11 +18,11 @@
       color: #fff;
       padding: 50px 55px;
       transition: all 0.5s;
-      z-index: 20;
+      z-index: 120;
       opacity: 0;
     }
   }
-  &-item {
+  &-item2 {
     @include tab {
       margin-right: 55px;
       margin-top: 50px;

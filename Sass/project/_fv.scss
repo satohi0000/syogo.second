@@ -3,7 +3,7 @@
 .p-fv {
   border-top: 1px solid #707070;
   display: flex;
-  height: 674px;
+  margin: 0 auto;
   width: 100%;
   z-index: -1;
   @include tab {
@@ -15,6 +15,7 @@
   &-right {
     position: relative;
     width: 50%;
+    max-width: 600px;
     overflow: hidden;
     padding-left: 100px;
 
@@ -65,19 +66,26 @@
       display: none;
       @include sp {
         display: flex;
-        margin: 0 auto;
-        width: 88%;
-        height: 300px;
-        transform: translate(31px, 372px);
+        margin: 5px auto;
+        width: 97%;
       }
     }
   }
   &-left {
+    width: 50%;
+    @include tab {
+      width: 100%;
+    }
+    br {
+      @include pc2 {
+        display: none;
+      }
+    }
     h1,
     p,
     button {
       margin-left: 27.5%;
-      width: 51%;
+      width: 70%;
 
       @include tab {
         margin-left: 28.5%;
@@ -93,18 +101,21 @@
       @include tab {
         margin-top: 368px;
       }
+      @include sp {
+        margin-top: 0;
+      }
     }
     p {
       margin-top: 21px;
-      width: 38%;
+      width: 72%;
       @include tab {
-        width: 72%;
+        width: 50%;
       }
       @include f_style2(1.6, 27, 0);
       font-weight: 700;
     }
     button {
-      width: 21%;
+      width: 38%;
       margin-top: 35px;
       @include sp {
         justify-content: center;

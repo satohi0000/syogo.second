@@ -1,7 +1,7 @@
 new Splide(".splide", {
   autoplay: true,
   interval: 5000,
-  speed: 2000,
+  speed: 500,
   pauseOnFocus: false,
   fixedWidth: "35%",
   gap: "4%",
@@ -15,12 +15,10 @@ new Splide(".splide", {
   breakpoints: {
     881: {
       height: "auto",
-    },
-    599: {
-      fixedWidth: "80%",
-      padding: "26%",
+      fixedWidth: "90%",
+      padding: "15%",
       focus: "center",
-      gap: "4%",
+      gap: "8%",
     },
   },
 }).mount();
@@ -30,6 +28,8 @@ $("#c-BTN1").on("click", function () {
   $(".p-nav-list2").toggleClass("open");
   $(".p-mask").toggleClass("open1");
   $("body").toggleClass("no_scroll");
+  $(".l-header").toggleClass("c-filter");
+
   return false;
 });
 
@@ -49,7 +49,7 @@ $(window).on("load resize", function () {
   }
 });
 
-$(".p-nav-item a").on("click", function () {
+$(".p-nav-item2 a").on("click", function () {
   $("#c-BTN1").toggleClass("active");
   $(".p-nav-list2").toggleClass("open");
   $(".p-mask").toggleClass("open1");

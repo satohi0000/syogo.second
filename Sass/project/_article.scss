@@ -67,6 +67,7 @@
     p {
       width: 90%;
       margin-top: 36px;
+      font-weight: bold;
       @include tab {
         margin: 0 auto;
         margin-top: 36px;
@@ -115,6 +116,7 @@
       display: flex;
       flex-wrap: wrap;
       width: 100%;
+      box-shadow: 1px 1px 10px -2px rgba(0, 0, 0, 0.6);
       dt {
         width: 27%;
 
@@ -169,12 +171,13 @@
   }
   &__table {
     background-color: white;
-    width: 70%;
+    width: 93%;
     margin: 0 auto;
     margin-top: 0px;
+    filter: drop-shadow(1px);
 
     dl {
-      width: 97%;
+      width: 100%;
       margin: 0 auto;
     }
     dt,

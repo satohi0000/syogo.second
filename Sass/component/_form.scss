@@ -20,7 +20,7 @@
   }
   &__box {
     padding-top: 36px;
-    padding-left: 59px;
+    padding-left: 3%;
     text-align: start;
     &-title {
       display: flex;
@@ -29,7 +29,7 @@
       &1 {
         margin-top: 34px;
         height: 39px;
-        width: 59%;
+        width: 97%;
         border: none;
         background-color: #eefbfb;
         text-align: none;
@@ -37,7 +37,7 @@
       &2 {
         margin-top: 34px;
         height: 175px;
-        width: 93%;
+        width: 97%;
         border: none;
         background-color: #eefbfb;
       }
@@ -45,15 +45,16 @@
     &2 {
       text-align: start;
       padding-top: 30px;
-      padding-left: 59px;
+      padding-left: 3%;
     }
     &3 {
       text-align: start;
       padding-top: 23px;
-      padding-left: 59px;
+      padding-left: 3%;
     }
     &4 {
       padding-top: 23px;
+      padding-left: 3%;
       text-align: center;
       label {
         font-size: 1.6rem;
@@ -62,6 +63,7 @@
         width: 20px;
         height: 20px;
         margin-right: 10px;
+        margin-bottom: 10px;
       }
     }
   }
