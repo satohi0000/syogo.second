@@ -29,7 +29,10 @@
       &1 {
         margin-top: 34px;
         height: 39px;
-        width: 97%;
+        width: 45%;
+        @include sp {
+          width: 100%;
+        }
         border: none;
         background-color: #eefbfb;
         text-align: none;

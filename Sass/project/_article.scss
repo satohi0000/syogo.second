@@ -183,11 +183,9 @@
     dt,
     dd {
       @include f_style2(1.4, 26, 70);
-
       text-align: center;
       padding: 18px 35px 18px 35px;
       margin: 0 auto;
-      margin-left: 18px;
       border-bottom: 1px solid #e5e5e5;
       border-left: 1px solid #e5e5e5;
       border-right: 1px solid #e5e5e5;

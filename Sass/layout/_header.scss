@@ -37,6 +37,9 @@
         width: 301px;
         li {
           margin-right: 47px;
+          @include tab {
+            margin-right: 0;
+          }
         }
       }
     }
